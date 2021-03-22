@@ -11,7 +11,7 @@ public class ProductBean {
     public List<Product> getProducts() throws SQLException, ClassNotFoundException {
         return new ProductDataAccess().selectProduct();
     }
-    public boolean getUserByName(String name,String password) throws SQLException, ClassNotFoundException {
+    public User getUserByName(String name,String password) throws SQLException, ClassNotFoundException {
         return new ProductDataAccess().getUser(name,password);
     }
 }

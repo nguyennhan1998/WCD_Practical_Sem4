@@ -18,11 +18,12 @@ public class LoginController extends HttpServlet {
         String password = request.getParameter("password");
         ProductBean productBean = new ProductBean();
         try {
-            if(productBean.getUserByName(username,password)){
+            if((productBean.getUserByName(username,password)).getUsername() != null){
+
                 RequestDispatcher requestDispatcher = request.getRequestDispatcher("Product.jsp");
                 requestDispatcher.forward(request,response);
-            }else{
-                response.sendRedirect("Login.jsp");
+            } else{
+                response.sendRedirect("Login.jsp?msgError=wrong username or password please check");
             }
         } catch (SQLException e) {
             e.printStackTrace();

@@ -7,7 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="478abb15-2f7b-47ef-9517-b1b52eee8653" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jstl_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WCD_practical_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WCD_practical_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WCD_practical.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WCD_practical.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/da/ProductDataAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/da/ProductDataAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ProductBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProductBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +31,7 @@
       <list>
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,6 +54,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.20083682" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.63" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.63" ALTERNATIVE_JRE_ENABLED="false">
@@ -93,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616382270820</updated>
-      <workItem from="1616382274618" duration="1019000" />
+      <workItem from="1616382274618" duration="2604000" />
     </task>
     <servers />
   </component>
@@ -101,6 +114,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="208" y="42" key="SettingsEditor" timestamp="1616384540862">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="208" y="42" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1616384540862" />
     <state x="375" y="293" key="com.intellij.ide.util.TipDialog" timestamp="1616382295356">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

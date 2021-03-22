@@ -40,12 +40,20 @@ public class ProductDataAccess {
         }
         return productList;
     }
-    public boolean getUser(String username,String password) throws SQLException, ClassNotFoundException {
+    public User getUser(String username,String password) throws SQLException, ClassNotFoundException {
         PreparedStatement statement = getUser();
         statement.setString(1,username);
         statement.setString(2,password);
-        statement.executeQuery();
-        return true;
+        ResultSet resultSet = statement.executeQuery();
+        User user = new User();
+        while (resultSet.next()){
+
+            user.setId(resultSet.getInt("id"));
+            user.setUsername(resultSet.getString("username"));
+            user.setPassword(resultSet.getString("password"));
+        }
+
+        return user;
     }
 
 }
